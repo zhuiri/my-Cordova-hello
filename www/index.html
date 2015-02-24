@@ -30,11 +30,18 @@
         {{#each this.columns}}
         <li class="table-view-cell media">
             <a href="{{ url }}">
-                <img class="media-object pull-left" src="{{image}}">
+                <img class="media-object pull-left" src="{{ image }}">
                 <div class="media-body">
+                        <!-- {{url}} -->
                     <p>{{title}}</p>
                 </div>
             </a>
+            <!-- <a hre="#" class="push-right add-location-btn">
+              <span class="media-object pull-left"></span>
+              <div class="media-body">
+                Add location
+              </div>
+            </a> -->
         </li>
         {{/each}}
     </ul>
